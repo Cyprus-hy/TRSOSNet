@@ -93,21 +93,21 @@ If you want to visualize the results, you can add `test.visrank True` at the end
 
 ## Qualitative Comparison
 
-![](https://ftp.bmp.ovh/imgs/2021/01/5767bafb80ca827d.jpg)
+OSNet on market1501:
 
-<center>OSNet on market1501</center>
+![OSNet on market1501](https://ftp.bmp.ovh/imgs/2021/01/5767bafb80ca827d.jpg)
+
+TRSOSNet on market1501:
 
 ![](https://ftp.bmp.ovh/imgs/2021/01/9723449ca5567b02.jpg)
 
-<center>TRSOSNet on market1501</center>
+OSNet on dukemtmcreid:
 
 ![](https://ftp.bmp.ovh/imgs/2021/01/01370ef74380960f.jpg)
 
-<center>OSNet on dukemtmcreid</center>
+TRSOSNet on dukemtmcreid:
 
 ![](https://ftp.bmp.ovh/imgs/2021/01/4538fb224570854c.jpg)
-
-<center>TRSOSNet on dukemtmcreid</center>
 
 ## References
 
