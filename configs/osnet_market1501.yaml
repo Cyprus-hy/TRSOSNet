@@ -4,6 +4,7 @@ model:
 
 data:
   type: 'image'
+  root: '/remote-home/my/code/TRSOSNet/data/'
   sources: ['market1501']
   targets: ['market1501']
   height: 256

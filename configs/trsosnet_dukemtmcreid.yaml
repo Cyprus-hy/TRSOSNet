@@ -4,7 +4,7 @@ model:
 
 data:
   type: 'image'
-  root: '/remote-home/my/code/deep-person-reid/reid-data/'
+  root: '/remote-home/my/code/TRSOSNet/data/'
   sources: ['dukemtmcreid']
   targets: ['dukemtmcreid']
   height: 256
