@@ -48,7 +48,7 @@ data.save_dir path_to_save_your_model
 
 # train TRSOSNet on dukemtmcreid from scratch
 python scripts/main.py \
---config-file configs/trsosnet_market1501.yaml \
+--config-file configs/trsosnet_dukemtmcreid.yaml \
 data.root path_to_your_data \
 data.save_dir path_to_save_your_model
 ```
