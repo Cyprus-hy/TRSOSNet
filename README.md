@@ -27,7 +27,7 @@ python setup.py develop
 
 ## Datasets
 
-In TRSOSNet, I use two datasets to train and test. One is [market1501](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view?usp=sharing), the other is [dukemtmcreid](https://drive.google.com/open?id=1jjE85dRCMOgRtvJ5RQV9-Afs-2_5dY3O). You can create a folder first, and then put the two datasets in it. Like: `makedir data`. And then the category should like this:
+In TRSOSNet, I use two datasets to train and test. One is [market1501](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view?usp=sharing), the other is [dukemtmcreid](https://drive.google.com/open?id=1jjE85dRCMOgRtvJ5RQV9-Afs-2_5dY3O). You can create a folder first, and then put the two datasets in it. Like: `mkdir data`. And then the category should like this:
 
 ```
 data
