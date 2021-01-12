@@ -48,7 +48,7 @@ data.save_dir path_to_save_your_model
 
 # train TRSOSNet on dukemtmcreid from scratch
 python scripts/main.py \
---config-file configs/trsosnet_dukemtmcreid.yaml \
+--config-file configs/trsosnet_market1501.yaml \
 data.root path_to_your_data \
 data.save_dir path_to_save_your_model
 ```
@@ -73,6 +73,9 @@ model.load_weights path_to_your_pretrained_model \
 test.evaluate True
 
 # compare the performance of OSNet on market1501 with TRSOSNet
+# Note that when you switch between the TRSOSNet and OSNet,
+# you should modify the LightConv3x3 function in torchreid/models/osnet,
+# just comment the other.
 python scripts/main.py \
 --config-file configs/osnet_market1501.yaml \
 model.load_weights path_to_your_pretrained_model \
